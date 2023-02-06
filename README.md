@@ -1,7 +1,7 @@
-# My Awesome Project
+# NFT Card Component HTML/CSS
 This is a card component for an NFT that includes a few hover states.
 
-**Link to project:** http://recruiters-love-seeing-live-demos.com/
+**Link to project:** https://nft-preview-card-component-ten-pi.vercel.app/
 
 ![Design Preview](desktop-design.jpg)
 
@@ -13,7 +13,7 @@ I built this using modern accessiblity HTML tags and best practices for layouts 
 
 ## Optimizations
 
-- I probably could add a transition for the hover states just to make them more appealing to the eye
+- change the b tag to an anchor link since that's more appropriate semantically
 
 ## Lessons Learned:
 
