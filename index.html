@@ -11,44 +11,63 @@
       href="./images/favicon-32x32.png"
     />
     <link rel="stylesheet" href="reset.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&display=swap"
+      rel="stylesheet"
+    />
     <link rel="stylesheet" href="style.css" />
 
-    <title>Frontend Mentor | NFT preview card component</title>
+    <title>NFT preview card component</title>
 
-    <style>
-      .attribution {
-        font-size: 11px;
-        text-align: center;
-      }
-      .attribution a {
-        color: hsl(228, 45%, 44%);
-      }
-    </style>
   </head>
   <body>
+    <div class="container">
+      <div class="card">
+        <section class="main-content">
 
-    <section>
-      <img src="" alt="">
-      <h1>Equilibrium #3429</h1>
+          <div class="image">
+            <img
+              class="nft"
+              src="/images/image-equilibrium.jpg"
+              alt="equilibrium nft image"
+            />
+            <div class="image-overlay">
+              <img src="/images/icon-view.svg" alt="">
+            </div>
+          </div>
+          <h1>Equilibrium #3429</h1>
 
-      <p>Our Equilibrium collection promotes balance and calm.</p>
-  
-      <span><img src="" alt="" /> 0.041 ETH </span>
-      <span> <img src="" alt="" /> 3 days left</span>
-    </section>
+          <p>Our Equilibrium collection promotes balance and calm.</p>
 
-    <hr />
+          <div class="minor-details">
+            <span class="price"
+              ><img
+                class="icon"
+                src="/images/icon-ethereum.svg"
+                alt="etherium icon"
+              />
+              0.041 ETH
+            </span>
+            <span class="time">
+              <img class="icon" src="/images/icon-clock.svg" alt="" /> 3 days
+              left</span
+            >
+          </div>
+        </section>
 
-    <section>
-      <img src="" alt="" />
-      <span>Creation of Jules Wyvern</span>
-    </section>
+        <hr />
 
-    <div class="attribution">
-      Challenge by
-      <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
-        >Frontend Mentor</a
-      >. Coded by <a href="#">Your Name Here</a>.
+        <section class="credits">
+          <img
+            class="avatar-img"
+            src="/images/image-avatar.png"
+            alt="avatar image"
+          />
+          <span>Creation of <b>Jules Wyvern</b></span>
+        </section>
+      </div>
     </div>
   </body>
 </html>
