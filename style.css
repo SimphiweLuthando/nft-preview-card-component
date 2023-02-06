@@ -35,6 +35,7 @@ h1{
     margin-bottom: 1.5rem;
     color: hsl(0, 0%, 100%);
     font-weight: 600;
+    font-size: 1.313rem;
 }
 
 p{
@@ -91,6 +92,7 @@ hr{
 
 .price{
     color: hsl(178, 100%, 50%);
+    
     
 }
 
